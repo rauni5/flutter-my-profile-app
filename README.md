@@ -7,7 +7,7 @@ A new Flutter project with custom name and icon.
 Development (dev)
 Staging (staging)
 Production (prod)
-#Installation
+# Installation
 
 ## Clone the repository:
 
