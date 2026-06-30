@@ -1,19 +1,20 @@
 # raunit_giri_app
 
 A new Flutter project with custom name and icon.
-Three application flavors:
+
+## Three application flavors:
 
 Development (dev)
 Staging (staging)
 Production (prod)
 #Installation
 
-##Clone the repository:
+## Clone the repository:
 
 git clone https://github.com/<your-username>/flutter-my-profile-app.git
 cd flutter-my-profile-app
 
-##Install dependencies:
+## Install dependencies:
 
 flutter pub get
 
@@ -21,10 +22,10 @@ Generate the flavor configuration (if required):
 
 dart run flutter_flavorizr
 
-#Running the Application
-##Development
+# Running the Application
+## Development
 flutter run --flavor dev
-##Staging
+## Staging
 flutter run --flavor staging
-##Production
+## Production
 flutter run --flavor prod
