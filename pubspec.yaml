@@ -46,6 +46,8 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
 
+  flutter_flavorizr: ^2.5.0
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -87,3 +89,37 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "Raunit"
+  flavors:
+    dev:
+      app:
+        name: "Raunit Dev"
+
+      android:
+        applicationId: "com.raunit.myprofileapp.dev"
+
+      ios:
+        bundleId: "com.raunit.myprofileapp.dev"
+
+    staging:
+      app:
+        name: "Raunit Staging"
+
+      android:
+        applicationId: "com.raunit.myprofileapp.staging"
+
+      ios:
+        bundleId: "com.raunit.myprofileapp.staging"
+
+    prod:
+      app:
+        name: "Raunit"
+
+      android:
+        applicationId: "com.raunit.myprofileapp"
+
+      ios:
+        bundleId: "com.raunit.myprofileapp"
